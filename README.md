@@ -1,10 +1,10 @@
 # heeframework
 
-#### Introduction to 
-Use the heephp framework development, rapid development framework, user management, rights system, menu management and other common functions, to quickly develop system applications
+#### IntDroduction to 
+Developed by the Heephp MVC Framework, rapid development framework, user management, rights system, menu management and other common functions, to quickly develop system applications
 
 #### Software Architecture
-Php7.3+ MVC MySQL data cache can use file, redis, Memcache
+Php7.3+ MVC MySQL data cache that you can use File, Redis, Memcache
 Installation Tutorial
 1. Download Files
 2. Set the root directory to public
