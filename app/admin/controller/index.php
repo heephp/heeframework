@@ -157,35 +157,5 @@ class index extends adminBase {
 
     }
 
-    function test(){
-        //header('Content-type:image/jpg');
-        //waterMark(ROOT.'/public/assets/img/blogpost.jpg','','ABCDEFGH','0,0,0',6,ROOT.'/public/assets/fonts/arial.ttf');
-        //imageWaterMark(ROOT.'/public/assets/img/blogpost.jpg',8,false,"ABDEFG");
-        echo phpinfo();
-        //连接本地的 Redis 服务
-        $redis = new \Redis();
-        $redis->connect('127.0.0.1', 6379);
-        //echo "Connection to server successfully";
-        //$users=model('users');
-        //$users->select();
-        //设置 redis 字符串数据
-        //$redis->set("tutorial-name", json_encode($users->data,false));
-        // 获取存储的数据并输出
-        //echo "Stored string in redis:: " ;
-        //$result = json_decode($redis->get("tutorial-name"),true);
-        //var_dump($result[0]);
-        // 获取数据并输出
-        //$arList = $redis->get("heeframework_config");
-        //echo "Stored keys in redis:: ";
-        //print_r($arList);
-        cache()->clear();
-        $keys = $redis->keys('*');
-        foreach ($keys as $k){
-            echo $k.':'.$redis->get($k).'<br>';
-        }
-
-        //throw new sysExcption('测试错误信息ABCDE efgh');
-    }
-
 }
 
