@@ -13,6 +13,8 @@ php7.3+ mvc mysql 数据缓存可使用 文件、redis、memcache
 3.  创建数据库
 4.  导入Sql文件
 5.  修改\app\config.php 数据库连接
+6.  运行后，默认会进入后台登录界面
+7.  默认管理员用户名：admin  密码：123456
 
 #### 使用说明
 

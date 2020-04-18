@@ -372,15 +372,6 @@ CREATE TABLE `heeframework_message`  (
 -- ----------------------------
 INSERT INTO `heeframework_message` VALUES (3, 1, 3, 0, 'title', 'contet', 0, 1586695173, NULL, NULL);
 INSERT INTO `heeframework_message` VALUES (4, 1, 2, 0, '欢迎使用', '欢迎使用！！', 1, 1587103078, 1587103078, 1587103078);
-INSERT INTO `heeframework_message` VALUES (5, 1, 3, 0, '欢迎使用', '123456欢迎使用！！', 0, 1586695273, NULL, NULL);
-INSERT INTO `heeframework_message` VALUES (6, 1, 2, 0, 'title ABCDEFG', 'ABDEFAGE', 1, 1587103069, 1587103069, 1587103069);
-INSERT INTO `heeframework_message` VALUES (7, 1, 3, 0, 'title&nbsp;ABCDEFG', 'ABDEFAGE', 0, 1586698639, NULL, NULL);
-INSERT INTO `heeframework_message` VALUES (8, 1, 2, 0, 'title', 'contenxta123123', 1, 1587103080, 1587103080, 1587103080);
-INSERT INTO `heeframework_message` VALUES (9, 1, 1, 0, 'abc', 'abdd', 1, 1586832328, 1586832328, NULL);
-INSERT INTO `heeframework_message` VALUES (10, 1, 2, 0, 't123', 't234', 1, 1587103075, 1587103075, 1587103075);
-INSERT INTO `heeframework_message` VALUES (11, 1, 3, 0, 't123', 't234', 0, 1586732982, NULL, NULL);
-INSERT INTO `heeframework_message` VALUES (12, 1, 2, 0, 'tt123123', '123123', 1, 1587103073, 1587103073, 1587103073);
-INSERT INTO `heeframework_message` VALUES (13, 1, 3, 0, 'tt123123', '123123', 0, 1586733088, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for heeframework_sys_resources
@@ -471,19 +462,6 @@ CREATE TABLE `heeframework_users`  (
 -- Records of heeframework_users
 -- ----------------------------
 INSERT INTO `heeframework_users` VALUES (1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'admin_', '/upload/20200413/82b64f473a8acaa3948bab0548090020.jpg', 1, 1, 1586361600, '', 1, '', '', '', '123123', 'abc@qq.com', '', 999999999, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (2, 'wangyingzhe', '25f9e794323b453885f5181f1b624d0b', 'wangyingzhe', NULL, 2, 0, 1586275200, '', 1, '', '', '', '', 'abc@qq.com', '', 1586328207, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (3, 'wangyingzhe2', 'fcea920f7412b5da7be0cf42b8c93759', 'wyz1234', NULL, 8, 1, 1586448000, '上海', 1, '上海', '200010', '', '123123', 'abc@qq.com', '', 1586430365, NULL, 0);
-INSERT INTO `heeframework_users` VALUES (5, 'test122', 'f5bb0c8de146c67b44babbf4e6584cc0', '123123', NULL, 1, 1, 1587098949, '', 1, '', '', '', '', 'abc@qq.com', '', 1587098949, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (6, 'eesdfa', 'f5bb0c8de146c67b44babbf4e6584cc0', 'admin_123', NULL, 1, 1, 1587098970, '', 1, '', '', '', '', 'abc@qq.com', '', 1587098970, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (7, 'asdfasdfa', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (8, 'asdfadf', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (9, 'asdfasdf', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (10, 'ertwert', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `heeframework_users` VALUES (11, 'wertw', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1587102715);
-INSERT INTO `heeframework_users` VALUES (12, 'wertw', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1587102707);
-INSERT INTO `heeframework_users` VALUES (13, 'ertw', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1587102701);
-INSERT INTO `heeframework_users` VALUES (14, 'fasdf', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1587102695);
-INSERT INTO `heeframework_users` VALUES (15, 'rtwer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1587102656);
 
 -- ----------------------------
 -- Table structure for heeframework_users_group
