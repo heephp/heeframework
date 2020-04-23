@@ -2,7 +2,7 @@
 namespace heephp;
 
 define('SOFTNAME','heephp');
-define('VERSION','1.0');
+define('VERSION','1.1');
 define('ROOT',dirname($_SERVER["DOCUMENT_ROOT"]));
 
 include_once 'config.php';

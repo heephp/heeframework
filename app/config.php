@@ -47,6 +47,12 @@ return [
             'port'=>'11211'
         ]
     ],
+    'mail'=>[
+        'server'=>'',
+        'username'=>'',
+        'password'=>'',
+        'form'=>''
+    ],
     'searcher'=>[
         'users'=>['username','nickname','address','alias'=>'用户组'],
         'users_group'=>['name','remark','alias'=>'用户组'],
